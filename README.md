@@ -15,7 +15,7 @@ Just include the `vue-grid.js` file. Also works with amd or commonJS.
 
 ``` html
 <input type="text" v-model="searchQuery">
-<paginaiton id="my-table"></pagination>
+<pagination id="my-table"></pagination>
 <grid id="my-table" rows="{{gridData}}" columns="{{gridColumns}}" filter-key="{{searchQuery}}" per-page="10"></grid>
 ```
 
